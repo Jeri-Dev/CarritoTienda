@@ -53,7 +53,7 @@ export default function FIlter() {
         <label htmlFor="groceries">Groseries</label>
       </div>
       <div className="items">
-        <input type="radio" name="categories" id="hogar" />
+        <input type="radio" name="categories" id="home-decoration" />
         <label htmlFor="home-decoration">Hogar</label>
       </div>
       </div>
@@ -64,10 +64,6 @@ export default function FIlter() {
       <input type="range" min={0} max={2000} onChange={handleChange}/> 
       <p>${range}</p>
       </div>
-
-      <button onClick={() => {
-        localStorage.clear()
-      }}>limpiar</button>
     </div>
   );
 }

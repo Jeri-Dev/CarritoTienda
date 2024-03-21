@@ -19,7 +19,7 @@ export default function Product({ products }) {
           isInCart >= 0 ? removeFromCart(products) : ( addToCart(products) )       
         }
         }>{
-          isInCart >= 0 ?"Eliminar del Carrito"  :  "Añadir al Carrito"
+          isInCart >= 0 ? "Eliminar del Carrito"  :  "Añadir al Carrito"
         }</button>
       </div>
     </div>
