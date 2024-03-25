@@ -149,7 +149,7 @@
 }
 
 .filtro {
-    width: 20%;
+    width: 200px;
     gap: 30px;
     font-size: 20px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -289,6 +289,7 @@
 .section {
     display: flex;
     margin: 0 auto 0 auto;
+justify-content: center;
     width: 90vw;
     gap: 3em;
 }
@@ -304,3 +305,17 @@
     
     position: relative;
   }
+
+
+@media (max-width: 900px) {
+    .section {
+        flex-direction: column;
+align-items: center;
+
+    }
+
+    .filtro {
+        width: 70vw;
+        flex-direction: column;
+    }
+}
