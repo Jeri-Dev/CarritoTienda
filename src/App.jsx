@@ -15,7 +15,6 @@ function App() {
       <Nav show={show} setShow={setShow}/>
       <Carrito show={show}/>
       <div style={{marginTop: 100} } >
-        <h2 style={{paddingLeft : "24%",paddingBottom : 15, fontSize: 28}}>Productos</h2>
        <div className="section">
        <FilterProvider>
           <FIlter/>
