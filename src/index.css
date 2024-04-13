@@ -313,6 +313,7 @@ justify-content: center;
     background-color: rgba(247, 247, 247, 0.951);
     z-index: 10;
     padding: 20px;
+    display: none;
 
 }
 
@@ -351,7 +352,13 @@ justify-content: center;
         
     }
 
+    
+    
 }
 
+.filtro-button {
+    display: block;
+
+}
     
 }
